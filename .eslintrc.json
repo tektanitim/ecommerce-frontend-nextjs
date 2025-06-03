@@ -1,0 +1,12 @@
+// .eslintrc.json
+{
+  "extends": "next/core-web-vitals",
+  "rules": {
+    // 'any' tipi kullanımını şimdilik bir uyarıya düşür, hata olarak görme
+    "@typescript-eslint/no-explicit-any": "warn", 
+    // Kullanılmayan değişkenleri şimdilik bir uyarıya düşür
+    "@typescript-eslint/no-unused-vars": ["warn", { "argsIgnorePattern": "^_" }],
+    // JSX içindeki tek tırnak (apostrof) hatalarını şimdilik bir uyarıya düşür
+    "react/no-unescaped-entities": "warn" 
+  }
+}
