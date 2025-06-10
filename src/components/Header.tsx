@@ -65,7 +65,7 @@ export default function Header() {
         <nav className="hidden md:flex items-center gap-6 text-sm font-medium">
           <Link href="/" className="hover:text-blue-600 transition-colors">Anasayfa</Link>
           <Link href="/hakkimizda" className="hover:text-blue-600 transition-colors">Hakkımızda</Link>
-
+          <Link href="/kampanyalar" className="hover:text-blue-600 transition-colors">Kampanyalar</Link>
           <div className="relative">
             <button
               onClick={() => setIsCategoriesOpen(!isCategoriesOpen)}

@@ -3,12 +3,12 @@
 
 // Kayacak mesajlar
 const messages = [
-  "Limited Offer Sales!",
-  "Hot Deal Products!",
-  "Best Selling Items!",
-  "Spring Collections!",
-  "Summer Vibes On Sale!",
-  "Flash Deals Live Now!",
+  "Ham Bez Çantalar!",
+  "Plaj Çantaları!",
+  "Günlük Kullanım için Çantalar!",
+  "Toptan Bez Çanta!",
+  "Clutch ve Keseler!",
+  "Ürününüzü dizayn edin!",
 ];
 
 export default function MarqueeTicker() {

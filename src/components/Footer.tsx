@@ -25,16 +25,16 @@ export default function Footer() {
           </Link>
           <p className="text-sm mb-4">Kalite ve şıklığı buluşturan el yapımı çantalarınız.</p>
           <div className="flex gap-4">
-            <Link href="https://facebook.com/yourpage" target="_blank" rel="noopener noreferrer" aria-label="Facebook">
+            <Link href="https://facebook.com/desingbagcollection" target="_blank" rel="noopener noreferrer" aria-label="Facebook">
               <FaFacebookF className="h-6 w-6 hover:text-blue-500 transition-colors" />
             </Link>
-            <Link href="https://instagram.com/yourpage" target="_blank" rel="noopener noreferrer" aria-label="Instagram">
+            <Link href="https://instagram.com/desingbagcollection" target="_blank" rel="noopener noreferrer" aria-label="Instagram">
               <FaInstagram className="h-6 w-6 hover:text-pink-500 transition-colors" />
             </Link>
-            <Link href="https://twitter.com/yourpage" target="_blank" rel="noopener noreferrer" aria-label="Twitter">
+            <Link href="https://twitter.com/desingbagcollection" target="_blank" rel="noopener noreferrer" aria-label="Twitter">
               <FaTwitter className="h-6 w-6 hover:text-blue-400 transition-colors" />
             </Link>
-            <Link href="https://wa.me/905XXXXXXXXX" target="_blank" rel="noopener noreferrer" aria-label="WhatsApp">
+            <Link href="https://wa.me/905339780835" target="_blank" rel="noopener noreferrer" aria-label="WhatsApp">
               <FaWhatsapp className="h-6 w-6 hover:text-green-500 transition-colors" />
             </Link>
             <Link href="https://linkedin.com/in/yourprofile" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
@@ -58,12 +58,12 @@ export default function Footer() {
         {/* Sağ Sütun: Harita */}
         <div className="flex flex-col items-center md:items-start text-center md:text-left">
           <h3 className="text-lg font-semibold text-white mb-4">Bize Ulaşın</h3>
-          <p className="text-sm mb-4">Örnek Mah. Örnek Cad. No: 123, Örnek İlçe, Örnek Şehir</p>
+          <p className="text-sm mb-4">Fetihtepe Mahallesi Tepe üstü sokak No:41A Beyoğlu-İstanbul</p>
           <div className="w-full max-w-xs md:max-w-none h-40 bg-gray-700 rounded-lg overflow-hidden">
             {/* Google Haritalar Embed Kodu buraya gelecek */}
             {/* Örnek: Kendi konumunuz için Google Maps'ten "Embed a map" seçeneğini kullanın */}
             <iframe
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3010.741008709339!2d28.9749594157149!3d41.00823707929965!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14cab9bb2221b76b%3A0xb366b5e0a6d2f3c7!2zR2FsYXRhIEt1bGVzaQ!5e0!3m2!1str!2str!4v1678912345678!5m2!1str!2str"
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3009.0540782854446!2d28.95405267640582!3d41.04594647134514!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14cab0056d6fa5ad%3A0x64e792755325c3a3!2sUcuz%20Bez%20%C3%87anta!5e0!3m2!1str!2str!4v1749302651065!5m2!1str!2str"
               width="100%"
               height="100%"
               style={{ border: 0 }}

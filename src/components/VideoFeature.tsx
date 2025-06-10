@@ -6,11 +6,11 @@ import Image from 'next/image'; // Image bileşenini kullanmak için içe aktar�
 
 export default function VideoFeature() {
   // YouTube video ID'nizi buraya girin!
-  const youtubeVideoId = "g3E6hM65K-U"; // **BURAYI KENDİ GEÇERLİ VİDEO ID'NİZLE DEĞİŞTİRİN!**
-  const youtubeEmbedUrl = `https://www.youtube.com/watch?v=D4hYJojONqc{youtubeVideoId}?autoplay=0&controls=1&modestbranding=1&rel=0`;
+const youtubeVideoId = "JzkYufLjmJs"; // Sizin video ID'niz
+const youtubeEmbedUrl = `https://www.youtube.com/embed/${youtubeVideoId}?autoplay=0&controls=1&modestbranding=1&rel=0`;
 
   return (
-    <section className="bg-gray-900 py-12 md:py-16 mt-12">
+    <section className="bg-gray-500 py-12 md:py-6 mt-4">
       <div className="container mx-auto px-4 grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
         {/* Sol Kısım: YouTube Video */}
         <div className="w-full relative pt-[56.25%] overflow-hidden rounded-lg shadow-xl"> {/* 16:9 oranı için pt-[56.25%] */}
@@ -30,7 +30,7 @@ export default function VideoFeature() {
           <div className="mb-8">
             <Image
               src="/images/discount-circle.png" // Görselin yolu
-              alt="30% Off Promotion"
+              alt="70% e varan indirimler"
               width={160} // Görselin genişliğini ayarlayın
               height={160} // Görselin yüksekliğini ayarlayın (genişlikle orantılı olmalı)
               className="w-40 h-40 object-contain" // Tailwind ile boyutlandırma ve içerik uyumu
@@ -38,14 +38,15 @@ export default function VideoFeature() {
           </div>
 
           <h2 className="text-3xl md:text-4xl lg:text-5xl font-extrabold leading-tight mb-4 max-w-lg text-center">
-            Hot Deals You Can't Miss
+            Büyük Yaz İndirimleri Başladı!
           </h2>
           <p className="text-gray-300 text-lg mb-8 max-w-md text-center">
-            Buy any products & take the gift vouchers
+            Yaz sezonuna özel %70'e varan indirimlerle dolu kampanyalarımızı kaçırmayın! 
+            Sınırlı süreli fırsatlarla yaz alışverişinizi şimdi yapın!
           </p>
-          <Link href="/kampanyalar/sicak-firsatlar">
+          <Link href="/kampanyalar">
             <button className="bg-white text-gray-900 px-8 py-4 rounded-md font-semibold text-lg hover:bg-gray-200 transition-colors shadow-lg">
-              Shop Now
+              Şimdi Alışveriş Yap
             </button>
           </Link>
         </div>

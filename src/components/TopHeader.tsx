@@ -10,13 +10,13 @@ export default function TopHeader() {
     <div className="bg-gray-800 text-white text-center text-sm py-2 px-4 flex items-center justify-between">
       {/* Sol Kısım: Sosyal Medya İkonları */}
       <div className="flex items-center gap-4">
-        <Link href="https://facebook.com/yourpage" target="_blank" rel="noopener noreferrer" aria-label="Facebook">
+        <Link href="https://facebook.com/desingbagcollection" target="_blank" rel="noopener noreferrer" aria-label="Facebook">
           <FiFacebook className="h-5 w-5 hover:text-blue-400 transition-colors" />
         </Link>
-        <Link href="https://instagram.com/yourpage" target="_blank" rel="noopener noreferrer" aria-label="Instagram">
+        <Link href="https://instagram.com/desingbagcollection" target="_blank" rel="noopener noreferrer" aria-label="Instagram">
           <FiInstagram className="h-5 w-5 hover:text-pink-400 transition-colors" />
         </Link>
-        <Link href="https://twitter.com/yourpage" target="_blank" rel="noopener noreferrer" aria-label="Twitter">
+        <Link href="https://twitter.com/desingbagcollection" target="_blank" rel="noopener noreferrer" aria-label="Twitter">
           <FiTwitter className="h-5 w-5 hover:text-blue-300 transition-colors" />
         </Link>
       </div>
@@ -32,7 +32,7 @@ export default function TopHeader() {
       {/* Sağ Kısım: WhatsApp İkonu */}
       <div className="flex-shrink-0">
         <Link
-          href="https://wa.me/905XXXXXXXXX?text=Merhaba,%20sitenizden%20geliyorum." // Kendi WhatsApp numaranızı buraya yazın
+          href="https://wa.me/905339780835?text=Merhaba,%20sitenizden%20geliyorum." // Kendi WhatsApp numaranızı buraya yazın
           target="_blank"
           rel="noopener noreferrer"
           aria-label="WhatsApp Destek"
